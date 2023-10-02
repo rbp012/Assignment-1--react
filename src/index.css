@@ -12,7 +12,7 @@ body{
 .video-card {
   display: block;
   max-width: 700px;
-  max-height:430px;
+  max-height:470px;
   margin: 10px auto 0px auto;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -33,15 +33,13 @@ body{
   flex: 1;
   padding: 10px;
   margin-left: 5px;
-  position: relative;
-  bottom:35px;
 }
 .channel-info{
   display: flex;
   align-items: center;
   margin-top: 5px;
-  position: relative;
-  bottom: 332px;
+  margin-bottom:5px;
+  margin-left: 5px;
   background-color: #ffff;
   width: 250px;
   padding: 4px 5px; 
@@ -49,8 +47,8 @@ body{
 }
 /* CSS for Channel Logo */
 .channel-info img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -86,10 +84,7 @@ body{
 }
 
 @media (max-width:375px){
-  .channel-info{
-    bottom: 209px;
-  }
   .video-card{
-    height: 330px;
+    height: 370px;
   }
 }
